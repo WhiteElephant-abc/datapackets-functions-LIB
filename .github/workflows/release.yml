@@ -18,13 +18,8 @@ jobs:
         with:
           # Only include this section if you wish to publish
           # your assets on Modrinth.
-          modrinth-id: AANobbMI
-          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-
-          # Only include this section if you wish to publish
-          # your assets on CurseForge.
-          curseforge-id: 394468
-          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          modrinth-id: xfcXTP3W
+          modrinth-token: ${{ secrets.mrp_wcTxHTsWRFRv8fLbM63CNOehuByffxn99qJvGbigeQOsgLVHwjOYSXMWRbYf }}
 
           # Only include this section if you wish to publish
           # your assets on GitHub.
