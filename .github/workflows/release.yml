@@ -1,0 +1,12 @@
+name: create release
+
+on: 
+  push: 
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
