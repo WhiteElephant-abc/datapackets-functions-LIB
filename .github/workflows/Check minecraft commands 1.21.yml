@@ -1,4 +1,4 @@
-name: Check commands
+name: Check commands 1.21
 on:
   push:
     branches: [ main ]

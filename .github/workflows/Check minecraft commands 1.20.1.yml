@@ -1,4 +1,4 @@
-name: Check commands
+name: Check commands 1.20
 on:
   push:
     branches: [ main ]
@@ -13,4 +13,4 @@ jobs:
       - uses: mcbeet/check-commands@v1
         with:
           source: .
-          minecraft: "1.20.1"
+          minecraft: "1.20"
