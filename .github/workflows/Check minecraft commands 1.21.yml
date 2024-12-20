@@ -13,5 +13,5 @@ jobs:
       - uses: mcbeet/check-commands@v1
         with:
           source: .
-          minecraft: 1.21
+          minecraft: "1.21"
           stats: true
