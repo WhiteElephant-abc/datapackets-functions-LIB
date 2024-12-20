@@ -14,4 +14,3 @@ jobs:
         with:
           source: .
           minecraft: "1.21"
-          stats: true
