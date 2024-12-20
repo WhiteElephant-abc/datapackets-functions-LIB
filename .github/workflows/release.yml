@@ -1,29 +1,16 @@
-on:
-  push:
-    # Sequence of patterns matched against refs/tags
-    tags:
-      - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
+name: release # 任务名称
 
-name: Create Release
+on: # 触发条件
+  push: # 在push时触发
+    tags: # 标签  这里标识在push tag时触发
+      - 'v*' # 以v开头的版本
 
-jobs:
-  build:
-    name: Create Release
-    runs-on: ubuntu-latest
+jobs: # 任务
+  build: # 任务ID
+    runs-on: windows-latest # 运行环境 此处为windows环境，可根据实际情况选择
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1.1.4
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
-        with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          body: |
-            Changes in this Release
-            - First Change
-            - Second Change
-          draft: false
-          prerelease: false
+- name: Upload # 上传
+  uses: softprops/action-gh-release@v2 # 使用第三方actions 上传
+  if: startsWith(github.ref, 'refs/tags/') # 仅在tag时上传
+  with:
+    files: dist/env-manage.7z # 上传的文件
