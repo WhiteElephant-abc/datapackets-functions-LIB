@@ -1,15 +1,15 @@
-team add dfl_blue "blue"
-team add dfl_red "red"
+$team add $(team_blue)
+$team add $(team_red)
 
-team modify dfl_blue color blue
-team modify dfl_blue friendlyFire false
-team modify dfl_blue collisionRule pushOwnTeam
-team modify dfl_blue prefix "blue_"
+$team modify $(team_blue) color blue
+$team modify $(team_blue) friendlyFire false
+$team modify $(team_blue) collisionRule pushOwnTeam
+$team modify $(team_blue) prefix "$(prefix_blue)_"
 
-team modify dfl_red color red
-team modify dfl_red friendlyFire false
-team modify dfl_red collisionRule pushOwnTeam
-team modify dfl_red prefix "red_"
+$team modify $(team_red) color red
+$team modify $(team_red) friendlyFire false
+$team modify $(team_red) collisionRule pushOwnTeam
+$team modify $(team_red) prefix "$(prefix_red)_"
 #选项为displayName时：
 #<displayName>：component - 指定队伍被显示时的名称。必须为文本组件。
 #选项为color时：

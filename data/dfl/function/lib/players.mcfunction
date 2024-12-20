@@ -1,2 +1,2 @@
-scoreboard objectives add dfl_players dummy
-execute store result score @a dfl_players if entity @a
+scoreboard objectives add dfl_scoreboard dummy "DFL"
+execute store result score players dfl_scoreboard if entity @a

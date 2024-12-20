@@ -1,2 +1,2 @@
-scoreboard objectives add dfl_daytime dummy
-execute store result score @a dfl_daytime run time query daytime
+scoreboard objectives add dfl_scoreboard dummy "DFL"
+execute store result score daytime dfl_scoreboard run time query daytime

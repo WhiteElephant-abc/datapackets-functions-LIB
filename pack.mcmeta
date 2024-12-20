@@ -2,6 +2,6 @@
     "pack": {
       "pack_format": 48,
       "description": "兼容：1.13-1.21.x",
-      "supported_formats": [16, 60]
+      "supported_formats": [16, 61]
     }
   }
