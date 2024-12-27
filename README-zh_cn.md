@@ -1,3 +1,5 @@
+**Click [here]() to view the English version.**
+
 # 前言
 
 _本数据包遵循开源协议  [GNU GENERAL PUBLIC LICENSE](https://www.gnu.org/licenses/gpl-3.0.txt "跳转到此开源协议页面")_  

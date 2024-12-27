@@ -26,7 +26,7 @@ execute if score @n dfl_enable matches 1
 
 **Some function usages are followed by {xx:"xx"}. These functions are [macro functions](https://zh.minecraft.wiki/w/Java%E7%89%88%E5%87%BD%E6%95%B0#%E5%AE%8F). When using them, parameters need to be passed in through {<parameter name>:"<content>"} (the parameters in the usage are default parameters, which are recommended parameters tested by the author during development or parameters used by the author for testing). The parameter names (such as num) are presented in the text as: {num}. The parameter format can refer to the function usage, and special formats will be explained.**
 
-If you encounter any problems, please click [here](https://github.com/WhiteElephant-abc/datapackets-functions-LIB/issues/new/choose) to give feedback; if you cannot access it, you can click [here](https://steampp.net/) to download an accelerator.
+If you encounter any problems, please click [here](https://github.com/WhiteElephant-abc/datapackets-functions-LIB/issues/new/choose) to give feedback.
 
 # Function Explanation
 
