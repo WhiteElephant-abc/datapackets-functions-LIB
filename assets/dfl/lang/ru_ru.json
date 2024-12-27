@@ -1,0 +1,18 @@
+{
+    "start.dfl.enable": "Загрузка успешно завершена",
+    "start.dfl.license.a": "Используется этот пакет данных",
+    "start.dfl.license.b": "Протокол открытого кода",
+    "start.dfl.official": "Официальный сайт пакета данных",
+
+    "tick.ban.dfl.ban": "Вы были мягко заблокированы на этом сервере",
+    "tick.ban.dfl.from": "Через пакет данных",
+
+    "tick.show.entity.dfl.entity.num": "Количество сущностей: ",
+
+    "redstone.kill.item.dfl.entity.clear": "Очищено",
+    "redstone.kill.item.dfl.entity.item": "падших предметов",
+
+    "redstone.show.entity.dfl.entity.entity": "Количество сущностей: ",
+    "redstone.show.entity.dfl.entity.other.entity": "Количество неигровых сущностей: ",
+    "redstone.show.entity.dfl.entity.item": "Количество падших предметов: "
+} 

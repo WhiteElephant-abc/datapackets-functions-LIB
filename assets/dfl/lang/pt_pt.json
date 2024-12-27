@@ -1,0 +1,18 @@
+{
+    "start.dfl.enable": "Carregado com sucesso",
+    "start.dfl.license.a": "Este pacote de dados é utilizado",
+    "start.dfl.license.b": "Protocolo de código aberto",
+    "start.dfl.official": "Site oficial do pacote de dados",
+
+    "tick.ban.dfl.ban": "Você foi banido suavemente deste servidor",
+    "tick.ban.dfl.from": "Por meio do pacote de dados",
+
+    "tick.show.entity.dfl.entity.num": "Número de entidades: ",
+
+    "redstone.kill.item.dfl.entity.clear": "Limpado",
+    "redstone.kill.item.dfl.entity.item": "itens caídos",
+
+    "redstone.show.entity.dfl.entity.entity": "Número de entidades: ",
+    "redstone.show.entity.dfl.entity.other.entity": "Número de entidades não jogadores: ",
+    "redstone.show.entity.dfl.entity.item": "Número de itens caídos: "
+} 

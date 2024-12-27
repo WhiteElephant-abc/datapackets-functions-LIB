@@ -1,0 +1,18 @@
+{
+    "start.dfl.enable": "تم التحميل بنجاح",
+    "start.dfl.license.a": "يُستخدم هذا الحزمة البيانات",
+    "start.dfl.license.b": "نظام ترخيص مفتوح المصدر",
+    "start.dfl.official": "الموقع الرسمي للحزمة البيانات",
+
+    "tick.ban.dfl.ban": "لقد تم حظرك برمجياً من هذا الخادم",
+    "tick.ban.dfl.from": "عبر الحزمة البيانات",
+
+    "tick.show.entity.dfl.entity.num": "عدد الكيانات: ",
+
+    "redstone.kill.item.dfl.entity.clear": "تم ازالة",
+    "redstone.kill.item.dfl.entity.item": "عدد الصفقات المنسقة",
+
+    "redstone.show.entity.dfl.entity.entity": "عدد الكيانات: ",
+    "redstone.show.entity.dfl.entity.other.entity": "عدد الكيانات غير للاعبين: ",
+    "redstone.show.entity.dfl.entity.item": "عدد الصفقات المنسقة: "
+} 

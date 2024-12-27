@@ -1,0 +1,18 @@
+{
+    "start.dfl.enable": "सफलतापूर्वक लोड हो गया",
+    "start.dfl.license.a": "इस डेटा पैकेट का उपयोग किया जाता है",
+    "start.dfl.license.b": "खुले स्रोत प्रोटोकॉल",
+    "start.dfl.official": "डेटा पैकेट की आधिकारिक वेबसाइट",
+
+    "tick.ban.dfl.ban": "आपको इस सर्वर से सॉफ्ट बैन किया गया है",
+    "tick.ban.dfl.from": "डेटा पैकेट के माध्यम से",
+
+    "tick.show.entity.dfl.entity.num": "इकाइयों की संख्या: ",
+
+    "redstone.kill.item.dfl.entity.clear": "साफ़ कर दिया गया",
+    "redstone.kill.item.dfl.entity.item": "गिरे हुए वस्तुओं की संख décide हुई",
+
+    "redstone.show.entity.dfl.entity.entity": "इकाइयों की संख्या: ",
+    "redstone.show.entity.dfl.entity.other.entity": "गैर-खिलाड़ी इकाइयों की संख्या: ",
+    "redstone.show.entity.dfl.entity.item": "गिरे हुए वस्तुओं की संख्या: "
+} 
