@@ -255,7 +255,7 @@ Pre-function: `/function dfl:lib/gametime`
 
 - Create a scoreboard objective named "dfl_slime_armor_stand_temp" to store the time when the slime platform is generated.
 - Generate a 3*3 slime platform under the feet of the player with the "dfl_slime" tag and remove the tag. The slime platform can only cover air blocks.
-- The slime blocks at the position of the slime platform will be cleared after <the value in the dfl_scoreboard scoreboard objective named slime_time> ticks.
+- The slime blocks at the position of the slime platform will be cleared after `<the value in the dfl_scoreboard scoreboard objective named slime_time>` ticks.
 - The dfl_scoreboard scoreboard objective named slime_time will be set to 200 (i.e., 10 seconds) when it is not assigned.
 - The slime block drops within 2 blocks of the position where the player generates the platform will be cleared.
 
