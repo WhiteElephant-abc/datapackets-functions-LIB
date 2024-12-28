@@ -28,7 +28,7 @@ execute if score @n dfl_enable matches 1
 
 **注意：有些函数的用法下附有“前置函数”，这些函数执行前必须执行一次前置函数**
 
-**有些函数用法后带有 {xx:"xx"} 这些函数为[宏函数](https://zh.minecraft.wiki/w/Java%E7%89%88%E5%87%BD%E6%95%B0#%E5%AE%8F)，在使用时需通过 {<参数名>:"<内容>"} 传入参数（用法中的参数为默认参数，为作者开发时测试过的推荐参数，或作者测试使用的参数），参数名（如 num）在正文中表现为：{num}参数格式可参考函数用法，特殊格式会说明**
+**有些函数用法后带有 {xx:"xx"} 这些函数为[宏函数](https://zh.minecraft.wiki/w/Java%E7%89%88%E5%87%BD%E6%95%B0#%E5%AE%8F)，在使用时需通过 {<参数名>:"<内容>"} 传入参数（用法中的参数为默认参数，为作者开发时测试过的推荐参数，或作者测试使用的参数），参数名（如 num）在正文中表现为：{num}。参数格式可参考函数用法，特殊格式会说明**
 
 如果遇到任何问题，请点击 [这里](https://github.com/WhiteElephant-abc/datapackets-functions-LIB/issues/new/choose) 反馈；如果无法访问，可点击 [这里](https://steampp.net/) 下载加速器
 
@@ -291,6 +291,15 @@ execute if score @n dfl_enable matches 1
 - 输入 `/trigger tpa set <玩家在 dfl_playerid 记分项中的 id，可以通过 Tab 查看>` 以传送到对应玩家
 - 输入 `/trigger tpa_enable` 以允许其他玩家传送到自己，无法撤销（如不执行此命令则其他所有玩家均无法传送到此玩家），如果在此命令中使用了 set 设为其他值，则不会有任何效果（不会允许其他玩家传送到自己），仍然可以再次通过 set 来设为 1 以允许其他玩家传送到自己
 - 如果要传送的玩家不存在或未允许其他玩家传送到自己，则会在对应玩家 id 可被传送后传送到对应玩家，期间仍可随意更改 tpa 对象
+
+### 自动冶炼
+
+函数用法：`/function auto_smelt:smelt {input:"raw_iron",output:"iron_ingot"}`
+
+- 消耗 {input} 并给予函数执行者对应数量的 {output}；
+- 烧炼一个物品会消耗 1 点经验，如果玩家没有经验则不会烧炼物品；
+- 如果背包中同时拥有三种支持的燃料，会同时消耗这些燃料；
+- 消耗煤炭块后可以同时烧炼 9 个物品，并扣除 9 点经验。
 
 ## Redstone
 

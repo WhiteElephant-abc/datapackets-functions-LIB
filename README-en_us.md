@@ -277,6 +277,15 @@ Pre-function: `/function dfl:lib/player_id`
 - Enter `/trigger tpa_enable` to allow other players to teleport to yourself. This cannot be revoked (if this command is not executed, all other players cannot teleport to this player). If a value other than 1 is set using "set" in this command, there will be no effect (other players will still not be allowed to teleport to this player). You can still set it to 1 again using "set" to allow other players to teleport to yourself.
 - If the player to be teleported does not exist or has not allowed other players to teleport to themselves, the player will be teleported to the corresponding player after the corresponding player ID can be teleported. During this period, the tpa target can still be changed at will.
 
+### Auto-smelting
+
+Function usage: `/function auto_smelt:smelt {input:"raw_iron",output:"iron_ingot"}`
+
+- Consumes the item specified by `{input}` and gives the executor of the function the corresponding quantity of the item specified by `{output}`;
+- Smelting one item consumes 1 experience point. If the player has no experience, no item will be smelted;
+- If the player has all three kinds of supported fuels in the inventory at the same time, these fuels will be consumed simultaneously;
+- Consuming a coal block allows for smelting 9 items at once, with 9 experience points deducted.
+
 ## Redstone
 
 **The functions in this category are recommended to be executed at intervals (you can use the [/schedule](https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4/schedule "Jump to wiki to view the usage of this command") command).**
