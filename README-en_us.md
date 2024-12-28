@@ -281,9 +281,9 @@ Pre-function: `/function dfl:lib/player_id`
 
 Function usage: `/function auto_smelt:smelt {input:"raw_iron",output:"iron_ingot"}`
 
-- Consumes the item specified by `{input}` and gives the executor of the function the corresponding quantity of the item specified by `{output}`;
-- Smelting one item consumes 1 experience point. If the player has no experience, no item will be smelted;
-- If the player has all three kinds of supported fuels in the inventory at the same time, these fuels will be consumed simultaneously;
+- Consumes the item specified by `{input}` and gives the executor of the function the corresponding quantity of the item specified by `{output}`.
+- Smelting one item consumes 1 experience point. If the player has no experience, no item will be smelted.
+- If the player has all three kinds of supported fuels in the inventory at the same time, these fuels will be consumed simultaneously.
 - Consuming a coal block allows for smelting 9 items at once, with 9 experience points deducted.
 
 ## Redstone
