@@ -1,4 +1,4 @@
-**Click [here]() to view the English version.**
+**Click [here](https://github.com/WhiteElephant-abc/datapackets-functions-LIB/blob/main/README-en_us.md) to view the English version.**
 
 # 前言
 
