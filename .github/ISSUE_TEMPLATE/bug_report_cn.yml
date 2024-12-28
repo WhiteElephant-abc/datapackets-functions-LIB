@@ -1,0 +1,49 @@
+name: 🐛 | BUG 提交
+description: 🎤 | 提交您发现的此模组中的 BUG
+title: "[BUG]: "
+labels: ["BUG"]
+body:
+- type: markdown
+  attributes:
+    value: "# 🎁 | 欢迎您来填写本模组的 BUG 反馈!"
+- type: checkboxes
+  id: BUG_Prefeedback
+  attributes:
+    label: 检查项
+    description: 在提交前，请确认以下内容：
+    options:
+      - label: 此 BUG 未被提交过
+        required: true
+      - label: 此 BUG 的修复不在 PR 中
+        required: true
+      - label: 我已将模组更新到最新版本
+        required: true
+- type: input
+  id: Verison
+  attributes:
+    label: 版本
+    description: 您发现此 BUG 使用的模组版本、Minecraft 版本以及加载器
+    placeholder: 模组版本：vx.x.x；Minecraft版本：x.x.x；模组加载器：***
+  validations:
+    required: true
+- type: textarea
+  id: BUGInMSS3_Retry
+  attributes:
+    label: 复现流程
+    description: 请简要陈述如何触发这一个 BUG
+    placeholder: |
+      1. xxx
+      2. xxx
+      3. xxx
+  validations:
+    required: true
+- type: textarea
+  id: UploadLog
+  attributes:
+    label: 备注
+    description: 【可选】上传您的启动器日志以及您的游戏日志（一般存在于`.minecraft\versions\<版本文件夹>\logs`中）
+  validations:
+    required: false
+- type: markdown
+  attributes:
+    value: "### 🎉 | 感谢您对本模组的支持!"
