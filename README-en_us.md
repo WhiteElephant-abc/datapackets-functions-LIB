@@ -2,11 +2,11 @@
 
 _This data pack follows the open-source license [GNU GENERAL PUBLIC LICENSE](https://www.gnu.org/licenses/gpl-3.0.txt "Jump to this open-source license page")_  
 
-**Please install the resource pack at the same time to provide localized content (v3.2+). Otherwise, the language of the data pack will be zh_cn.**
-
 **This data pack provides developers with some useful functions and is compatible with all versions of Minecraft (except for those versions where data packs cannot be installed).**
 
 **However, since the data pack involves many commands, lower versions may not be able to use all functions. The applicable versions of all functions will not be noted separately below.**
+
+**Please install the resource pack at the same time to provide localized content (v3.2+). Otherwise, the language of the data pack will be zh_cn.**
 
 **The mod version of this data pack is packaged via Modrinth and updated synchronously with the data pack version. The content is completely consistent with the data pack version.**
 
