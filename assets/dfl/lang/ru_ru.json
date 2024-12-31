@@ -9,6 +9,12 @@
 
     "tick.show.entity.dfl.entity.num": "Количество сущностей: ",
 
+    "tick.kill.dfl.too.many": "Слишком много сущностей, они были удалены",
+    "tick.kill.dfl.entity.num": "сущностей",
+    "tick.kill.dfl.need.tag": "Чтобы предотвратить удаление сущности, можно дать ей",
+    "tick.kill.dfl.add": "добавить",
+    "tick.kill.dfl.tag": "тег",
+
     "redstone.kill.item.dfl.entity.clear": "Очищено",
     "redstone.kill.item.dfl.entity.item": "падших предметов",
 

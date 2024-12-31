@@ -9,6 +9,12 @@
 
     "tick.show.entity.dfl.entity.num": "Kvanto da entoj: ",
 
+    "tick.kill.dfl.too.many": "Hay demasiadas entidades, se han eliminado",
+    "tick.kill.dfl.entity.num": "entidades",
+    "tick.kill.dfl.need.tag": "Si quieres evitar que una entidad sea eliminada, puedes darle a la entidad",
+    "tick.kill.dfl.add": "agregar",
+    "tick.kill.dfl.tag": "etiquetas",
+
     "redstone.kill.item.dfl.entity.clear": "Forigita",
     "redstone.kill.item.dfl.entity.item": "falintaj aĵoj",
 

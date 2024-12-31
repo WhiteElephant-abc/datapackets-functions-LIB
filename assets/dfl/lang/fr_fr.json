@@ -8,6 +8,12 @@
     "tick.ban.dfl.from": "Via le paquet de données",
 
     "tick.show.entity.dfl.entity.num": "Nombre d'entités : ",
+    
+    "tick.kill.dfl.too.many": "Il y a trop d'entités, elles ont été supprimées",
+    "tick.kill.dfl.entity.num": "entités",
+    "tick.kill.dfl.need.tag": "Pour éviter qu'une entité soit supprimée, vous pouvez ajouter à l'entité",
+    "tick.kill.dfl.add": "ajouter",
+    "tick.kill.dfl.tag": "étiquettes",
 
     "redstone.kill.item.dfl.entity.clear": "Nettoyé",
     "redstone.kill.item.dfl.entity.item": "objets tombés",

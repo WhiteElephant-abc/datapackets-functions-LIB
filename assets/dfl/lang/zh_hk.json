@@ -9,6 +9,12 @@
 
     "tick.show.entity.dfl.entity.num": "實體數量：",
 
+    "tick.kill.dfl.too.many": "實體太多，已清除",
+    "tick.kill.dfl.entity.num": "個實體",
+    "tick.kill.dfl.need.tag": "如想防止實體被清除，可以給實體",
+    "tick.kill.dfl.add": "添加",
+    "tick.kill.dfl.tag": "標籤",
+
     "redstone.kill.item.dfl.entity.clear": "已清除",
     "redstone.kill.item.dfl.entity.item": "個掉落物",
 

@@ -8,6 +8,12 @@
     "tick.ban.dfl.from": "عبر الحزمة البيانات",
 
     "tick.show.entity.dfl.entity.num": "عدد الكيانات: ",
+    
+    "tick.kill.dfl.too.many": "كثير من الكيانات، تم ازالتها",
+    "tick.kill.dfl.entity.num": "كيانًا",
+    "tick.kill.dfl.need.tag": "إذا كنت تريد منع إزالة الكيانات، يمكنك للكيانات",
+    "tick.kill.dfl.add": "أضف",
+    "tick.kill.dfl.tag": "تسمية",
 
     "redstone.kill.item.dfl.entity.clear": "تم ازالة",
     "redstone.kill.item.dfl.entity.item": "عدد الصفقات المنسقة",

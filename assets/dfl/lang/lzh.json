@@ -8,6 +8,12 @@
     "tick.ban.dfl.from":"由数据包",
     
     "tick.show.entity.dfl.entity.num":"实体之数：",
+    
+    "tick.kill.dfl.too.many": "實體過多，已清除也",
+    "tick.kill.dfl.entity.num": "個實體",
+    "tick.kill.dfl.need.tag": "欲防實體被清除者，可為實體",
+    "tick.kill.dfl.add": "添",
+    "tick.kill.dfl.tag": "標籤",
 
     "redstone.kill.item.dfl.entity.clear":"除却",
     "redstone.kill.item.dfl.entity.item":"落物数",

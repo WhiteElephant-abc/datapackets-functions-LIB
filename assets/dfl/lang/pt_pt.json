@@ -9,6 +9,12 @@
 
     "tick.show.entity.dfl.entity.num": "Número de entidades: ",
 
+    "tick.kill.dfl.too.many": "Há demasiadas entidades, foram eliminadas",
+    "tick.kill.dfl.entity.num": "entidades",
+    "tick.kill.dfl.need.tag": "Para evitar que uma entidade seja eliminada, pode dar à entidade",
+    "tick.kill.dfl.add": "adicionar",
+    "tick.kill.dfl.tag": "etiquetas",
+
     "redstone.kill.item.dfl.entity.clear": "Limpado",
     "redstone.kill.item.dfl.entity.item": "itens caídos",
 
