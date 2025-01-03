@@ -1,7 +1,23 @@
 {
   "pack": {
     "pack_format": 48,
-    "description": "bilibili-白象_elephant",
-    "supported_formats": [16, 61]
+    "description": [
+      {
+        "text": "by - ",
+        "color": "red"
+      },
+      {
+        "text": "Modrinth",
+        "color": "green"
+      },
+      {
+        "text": " white_elephant",
+        "color": "blue"
+      }
+    ],
+    "supported_formats": [
+      1,
+      1024
+    ]
   }
 }
