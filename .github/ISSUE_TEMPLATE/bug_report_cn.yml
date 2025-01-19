@@ -1,7 +1,7 @@
 name: 🐛 | BUG 提交
 description: 🎤 | 提交您发现的此模组中的 BUG
 title: "[BUG]: "
-labels: ["BUG"]
+labels: [ "bug" ]
 body:
 - type: markdown
   attributes:

@@ -1,7 +1,7 @@
 name: 📖 | 新功能 提交
 description: 📎 | 写下您对添加新功能的一些建议
 title: "[新功能]: "
-labels: ["新功能建议"]
+labels: [ "enhancement" ]
 body:
 - type: markdown
   attributes:
