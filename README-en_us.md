@@ -1,6 +1,6 @@
 # Preface
 
-_This data pack follows the open-source license [GNU GENERAL PUBLIC LICENSE](https://www.gnu.org/licenses/gpl-3.0.txt "Jump to this open-source license page")_  
+_This data pack follows the open-source license [GNU LESSER GENERAL PUBLIC LICENSE](https://www.gnu.org/licenses/lgpl-3.0.txt "Jump to this open-source license page")_  
 
 **This data pack provides developers with some useful functions and is compatible with all versions of Minecraft (except for those versions where data packs cannot be installed).**
 

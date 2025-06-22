@@ -2,7 +2,7 @@
 
 # 前言
 
-_本数据包遵循开源协议  [GNU GENERAL PUBLIC LICENSE](https://www.gnu.org/licenses/gpl-3.0.txt "跳转到此开源协议页面")_  
+_本数据包遵循开源协议  [GNU LESSER GENERAL PUBLIC LICENSE](https://www.gnu.org/licenses/lgpl-3.0.txt "跳转到此开源协议页面")_  
 
 **本数据包为开发者提供了一些实用的函数，兼容 Minecraft 所有版本（除了无法安装数据包的版本）**
 
