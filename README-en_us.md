@@ -410,3 +410,9 @@ Function Usage: `/function dfl:lib/things_count {name:"stone"}`
 
 - Create a scoreboard objective named `dfl_{name}_num`.
 - Write the quantity of the item `{name}` for all players into their respective scoreboard objectives.
+
+### Batch Spawning Fake Players
+
+Function Usage: `/function dfl:lib/spawn`
+
+- Spawns 100 Carpet fake players based on the player's coordinates.

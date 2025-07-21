@@ -430,3 +430,9 @@ execute if score @n dfl_enable matches 1
 
 - 创建名为 dfl_{name}_num 的记分项
 - 将所有玩家的 {name} 数量写入各自的此记分项
+
+### 批量生成假人
+
+函数用法：`/function dfl:lib/spawn`
+
+- 以玩家为坐标基准生成 100 个 Carpet 假人
