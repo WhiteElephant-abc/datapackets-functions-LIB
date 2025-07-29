@@ -21,8 +21,10 @@ _本数据包遵循开源协议  [GNU LESSER GENERAL PUBLIC LICENSE](https://www
 scoreboard objectives add dfl_enable dummy
 scoreboard players set @e dfl_enable 0
 #如果未加载：
+function dfl:dfl_enable
 execute unless score @n dfl_enable matches 1
 #如果加载：
+function dfl:dfl_enable
 execute if score @n dfl_enable matches 1
 ```
 

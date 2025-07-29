@@ -19,8 +19,10 @@ _This data pack follows the open-source license [GNU LESSER GENERAL PUBLIC LICEN
 scoreboard objectives add dfl_enable dummy
 scoreboard players set @e dfl_enable 0
 # If not loaded:
+function dfl:dfl_enable
 execute unless score @n dfl_enable matches 1
 # If loaded:
+function dfl:dfl_enable
 execute if score @n dfl_enable matches 1
 ```
 
