@@ -271,7 +271,7 @@ execute if score @n dfl_enable matches 1
 
 前置函数：`/function dfl:lib/gametime`
 
-- 创建名为 dfl_slime_armor_stand_temp 的记分项，用于储存史莱姆平台生成时的时间
+- 创建名为 dfl_slime_marker_temp 的记分项，用于储存史莱姆平台生成时的时间
 - 在拥有 dfl_slime 标签的玩家脚下生成一个 3*3 的史莱姆平台并移除标签，史莱姆平台只能覆盖掉空气方块
 - 会在 `<slime_time 的 dfl_scoreboard 记分项>` tick 后清除史莱姆平台位置上的史莱姆方块
 - slime_time 的 dfl_scoreboard 记分项会在没有赋值时被设为 200，即 10s
