@@ -6,11 +6,9 @@ _This data pack follows the open-source license [GNU LESSER GENERAL PUBLIC LICEN
 
 **However, since the data pack involves many commands, lower versions may not be able to use all functions. The applicable versions of all functions will not be noted separately below.**
 
-**Please install the resource pack simultaneously to provide localized content (v3.2+). Otherwise, the language of the data packet will be zh_cn. Or you can use the mod version.**
+**Please install the resource pack simultaneously to provide localized content (v3.2+). Otherwise, the language of the data packet will be zh_cn.**
 
 **The mod version of this data pack is packaged via Modrinth and updated synchronously with the data pack version. The content is completely consistent with the data pack version.**
-
-**After this data pack is loaded, a scoreboard objective "dfl_enable" will be created once per tick, and the scores of all entities in this scoreboard objective will be set to 1, facilitating data packs or mods that rely on this data pack to detect whether this data pack is loaded.**
 
 **Example**:
 
