@@ -317,7 +317,9 @@ execute if score @n dfl_enable matches 1
 前置函数：
 
 `/function dfl:lib/entity`
+
 `/function dfl:lib/item`
+
 `/function dfl:lib/other_entity`
 
 此函数效果如下：

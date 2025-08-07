@@ -88,6 +88,7 @@ Function: `/function dfl:start/show/health_list`
 - Creates `health` scoreboard
 - Shows health bars in Tab list
 - Effect:
+
 ![[DFL] Datapack Function Library (datapackets functions LIB)-Image 1](https://zh.minecraft.wiki/images/Scoreboard_Display_List_Hearts.gif)
 
 ### Quick Team Setup
@@ -111,7 +112,9 @@ Function: `/function dfl:tick/ban`
 - Teleports player to 0 0 0, sets adventure mode, applies debuffs
 - Must run every tick
 - Example: `/execute as @a[tag=ban] run function dfl:tick/ban`
+
 Effect:
+
 ![[DFL] Datapack Function Library (datapackets functions LIB)-Image 2](https://i.mcmod.cn/editor/upload/20241124/1732460069_829263_PTUj.webp)
 
 ### Beacon Elytra Launch
@@ -125,6 +128,7 @@ Function: `/function dfl:tick/beacon_fly`
 ### Apply Debuffs
 
 Function: `/function dfl:tick/debuff`
+
 Grants executor:
 
 1. Slowness
@@ -153,11 +157,13 @@ Function: `/function dfl:tick/kill {num:"1000"}`
 - Exempts entities with `need` tag
 - Creates `dfl_scoreboard` objective
 - Chat notification:
+
 ![[DFL] Datapack Function Library (datapackets functions LIB)-Image 3](https://i.mcmod.cn/editor/upload/20241128/1732782965_829263_DgBT.webp)
 
 ### Clear High-Density Entities
 
 Function: `/function dfl:tick/kill_better {num:"50"}`
+
 Prerequisite: `/function dfl:lib/entity_density`
 
 - Kills entities with >`{num}` entities within 10 blocks
@@ -176,10 +182,13 @@ Function: `/function dfl:tick/relax`
 ### Display Entity Count
 
 Function: `/function dfl:tick/show_entity`
+
 Prerequisite: `/function dfl:lib/entity`
 
 - Shows real-time entity count in action bar
+
 Effect:
+
 ![[DFL] Datapack Function Library (datapackets functions LIB)-Image 4](https://i.mcmod.cn/editor/upload/20241124/1732462874_829263_RoxS.webp)
 
 ### Disable Friendly Fire & Collisions
@@ -243,6 +252,7 @@ Function: `/function dfl:tick/keep_have_things {name:"slime_block",num:"64"}`
 ### Self-Rescue Platform
 
 Function: `/function dfl:tick/slime`
+
 Prerequisite: `/function dfl:lib/gametime`
 
 - Creates `dfl_slime_marker_temp` to store spawn time
@@ -259,6 +269,7 @@ Function: `/function dfl:tick/things_to_xp {name:"tnt",xp:"1"}`
 ### TPA System
 
 Function: `/function dfl:tick/tpa`
+
 Prerequisite: `/function dfl:lib/player_id`
 
 - Creates `tpa` and `tpa_enable` objectives
@@ -292,11 +303,17 @@ Effect:
 ### Display Entity Stats
 
 Function: `/function dfl:redstone/show_entity`
+
 Prerequisites:
+
 `/function dfl:lib/entity`
+
 `/function dfl:lib/item`
+
 `/function dfl:lib/other_entity`
+
 Effect:
+
 ![[DFL] Datapack Function Library (datapackets functions LIB)-Image 6](https://i.mcmod.cn/editor/upload/20241125/1732464350_829263_dYNP.webp)
 
 ## Lib
