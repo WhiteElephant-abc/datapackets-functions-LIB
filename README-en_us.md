@@ -89,7 +89,7 @@ Function: `/function dfl:start/show/health_list`
 - Shows health bars in Tab list
 - Effect:
 
-![[DFL] Datapack Function Library (datapackets functions LIB)-Image 1](https://zh.minecraft.wiki/images/Scoreboard_Display_List_Hearts.gif)
+![[DFL] Datapack Function Library (datapackets functions LIB)-Image 1](https://raw.githubusercontent.com/WhiteElephant-abc/datapackets-functions-LIB/refs/heads/main/README/Scoreboard_Display_List_Hearts.gif)
 
 ### Quick Team Setup
 
