@@ -297,7 +297,7 @@ execute if score @n dfl_enable matches 1
 
 ## Redstone
 
-<span style="color:red;"><b>此分类中的函数建议每间隔一段时间后执行（可以使用 [/schedule](https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4/schedule "跳转到wiki查看此命令用法") 命令）</b></span>
+<span style="color:red;"><b>此分类中的函数建议每间隔一段时间后执行。（可以使用 [/schedule](https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4/schedule "跳转到wiki查看此命令用法") 命令）</b></span>
 
 ### 清理掉落物
 
@@ -326,7 +326,7 @@ execute if score @n dfl_enable matches 1
 
 ## Lib
 
-<span style="color:red;"><b>此分类中的函数单独执行没有任何效果或不符合上述分类</b></span>
+<span style="color:red;"><b>此分类中的函数单独执行没有任何效果或不符合上述分类。</b></span>
 
 ### 强制死亡掉落
 
