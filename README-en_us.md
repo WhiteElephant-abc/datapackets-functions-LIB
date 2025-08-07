@@ -115,7 +115,7 @@ Function: `/function dfl:tick/ban`
 
 Effect:
 
-![[DFL] Datapack Function Library (datapackets functions LIB)-Image 2](https://i.mcmod.cn/editor/upload/20241124/1732460069_829263_PTUj.webp)
+![[DFL] Datapack Function Library (datapackets functions LIB)-Image 2](https://github.com/WhiteElephant-abc/datapackets-functions-LIB/blob/main/README/tick.ban.png?raw=true)
 
 ### Beacon Elytra Launch
 
@@ -158,7 +158,7 @@ Function: `/function dfl:tick/kill {num:"1000"}`
 - Creates `dfl_scoreboard` objective
 - Chat notification:
 
-![[DFL] Datapack Function Library (datapackets functions LIB)-Image 3](https://i.mcmod.cn/editor/upload/20241128/1732782965_829263_DgBT.webp)
+![[DFL] Datapack Function Library (datapackets functions LIB)-Image 3](https://github.com/WhiteElephant-abc/datapackets-functions-LIB/blob/main/README/tick.kill.png?raw=true)
 
 ### Clear High-Density Entities
 
@@ -189,7 +189,7 @@ Prerequisite: `/function dfl:lib/entity`
 
 Effect:
 
-![[DFL] Datapack Function Library (datapackets functions LIB)-Image 4](https://i.mcmod.cn/editor/upload/20241124/1732462874_829263_RoxS.webp)
+![[DFL] Datapack Function Library (datapackets functions LIB)-Image 4](https://github.com/WhiteElephant-abc/datapackets-functions-LIB/blob/main/README/tick.show_entity.png?raw=true)
 
 ### Disable Friendly Fire & Collisions
 
@@ -297,8 +297,10 @@ Function: `/function dfl:redstone/kill_item`
 - Creates `dfl_scoreboard`
 - Clears all items (exempts `need`-tagged)
 - Outputs cleared count via `/tellraw`
+
 Effect:
-![[DFL] Datapack Function Library (datapackets functions LIB)-Image 5](https://i.mcmod.cn/editor/upload/20241125/1732464116_829263_BxRx.webp)
+
+![[DFL] Datapack Function Library (datapackets functions LIB)-Image 5](https://github.com/WhiteElephant-abc/datapackets-functions-LIB/blob/main/README/redstone.kill_item.png?raw=true)
 
 ### Display Entity Stats
 
@@ -314,7 +316,7 @@ Prerequisites:
 
 Effect:
 
-![[DFL] Datapack Function Library (datapackets functions LIB)-Image 6](https://i.mcmod.cn/editor/upload/20241125/1732464350_829263_dYNP.webp)
+![[DFL] Datapack Function Library (datapackets functions LIB)-Image 6](https://github.com/WhiteElephant-abc/datapackets-functions-LIB/blob/main/README/redstone.show_entity.png?raw=true)
 
 ## Lib
 
